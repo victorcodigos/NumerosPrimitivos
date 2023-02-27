@@ -14,9 +14,17 @@ public class TiposPrimitivos {
         float nota = escreva.nextFloat();
         System.out.format("A nota de %s es %.1f \n", nome, nota);
         */
+
+        /*
         int idade = 25;
         String valor = Integer.toString(idade);
         System.out.print(valor);
+
+         */
+        String valor = "25";
+        int idade = Integer.parseInt(valor);
+        System.out.println(idade);
+
 
     }
 }
