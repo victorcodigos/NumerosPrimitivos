@@ -21,9 +21,9 @@ public class TiposPrimitivos {
         System.out.print(valor);
 
          */
-        String valor = "25";
-        int idade = Integer.parseInt(valor);
-        System.out.println(idade);
+        String valor = "25.5";
+        float idade = Float.parseFloat(valor);
+        System.out.printf("%.2f",idade);
 
 
     }
